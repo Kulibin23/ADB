@@ -1,0 +1,366 @@
+08-28 20:30:28.769 16896 16896 I Quality : Skipped: false 8 cost 72.23798 refreshRate 0 processName com.android.todolist
+08-28 20:30:28.778  2020  5496 V WindowManager: Changing focus from Window{6ed97c6 u0 com.android.todolist/com.android.todolist.ListActivity} to Window{9605fa0 u0 PopupWindow:591b972},diplayid=0
+08-28 20:30:28.820 16896 16896 I Quality : Skipped: false 5 cost 48.811993 refreshRate 0 processName com.android.todolist
+08-28 20:30:30.072 16896 16896 I Quality : Skipped: false 1 cost 9.525875 refreshRate 0 processName com.android.todolist
+08-28 20:30:30.080  2020  5496 V WindowManager: Changing focus from Window{9605fa0 u0 PopupWindow:591b972} to Window{6ed97c6 u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:30:30.130 16896 16896 I Quality : Skipped: false 6 cost 51.32635 refreshRate 0 processName com.android.todolist
+08-28 20:30:30.151  2020  5496 V WindowManager: Changing focus from Window{6ed97c6 u0 com.android.todolist/com.android.todolist.ListActivity} to Window{b25b3f7 u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:30:30.181 16896 16896 I Quality : Skipped: false 5 cost 43.921867 refreshRate 0 processName com.android.todolist
+08-28 20:30:30.919 16896 16896 I Quality : Skipped: false 1 cost 16.205036 refreshRate 0 processName com.android.todolist
+08-28 20:30:32.716  2020  5519 V WindowManager: Changing focus from Window{b25b3f7 u0 com.android.todolist/com.android.todolist.ListActivity EXITING} to Window{6ed97c6 u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:30:33.848  2020  6061 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity mCallingUid=10479} from uid 10479
+08-28 20:30:33.851  2020  6061 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:30:33.851  2020  6061 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:30:33.851  2020  6061 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=6}
+08-28 20:30:33.857  2020  6061 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}
+08-28 20:30:33.857  2020  6061 D TaskExtImpl: add ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(6) }
+08-28 20:30:33.858  2020  6061 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:33.858  2020  6061 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:30:33.858  2020  6061 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:30:33.858  2020  6061 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}
+08-28 20:30:33.864 16896 16896 I Quality : Skipped: false 2 cost 22.310629 refreshRate 0 processName com.android.todolist
+08-28 20:30:33.866  2020  6061 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:30:33.868  2020  6061 V WindowManager: Changing focus from Window{6ed97c6 u0 com.android.todolist/com.android.todolist.ListActivity} to null,diplayid=0
+08-28 20:30:33.868  2020  6061 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}; hasFocus: false
+08-28 20:30:33.914  2020  2877 V WindowManager: Changing focus from null to Window{c51f4a7 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:30:33.914  2020  2877 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}; hasFocus: true
+08-28 20:30:33.914  2020  2877 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7} would transfer to compact
+08-28 20:30:33.933  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:33.933  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{13c7231 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:30:33.933  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{13c7231 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:30:33.933  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{13c7231 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:30:33.936 16896 16896 I Quality : Skipped: false 4 cost 35.793003 refreshRate 0 processName com.android.todolist
+08-28 20:30:33.939  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:33.941  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{13c7231 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:30:33.942  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.MainActivity 2 81
+08-28 20:30:34.345  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:34.345  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:34.346  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{13c7231 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:30:34.360  2020  5348 D TaskExtImpl: remove ActivityRecord{13c7231 u0 com.android.todolist/.ListActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(6) }
+08-28 20:30:35.513 16896 16896 I Quality : Skipped: false 4 cost 39.051224 refreshRate 0 processName com.android.todolist
+08-28 20:30:35.528  2020  5496 V WindowManager: Changing focus from Window{c51f4a7 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{7041023 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:30:35.549 16896 16896 I Quality : Skipped: false 4 cost 34.211056 refreshRate 0 processName com.android.todolist
+08-28 20:30:36.495 16896 16896 I Quality : Skipped: false 1 cost 13.647175 refreshRate 0 processName com.android.todolist
+08-28 20:30:37.989  2020  2753 V WindowManager: Changing focus from Window{7041023 u0 com.android.todolist/com.android.todolist.MainActivity EXITING} to Window{c51f4a7 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:30:39.543  2020  2877 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras) mCallingUid=10479} from uid 10479
+08-28 20:30:39.545  2020  2877 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+08-28 20:30:39.545  2020  2877 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:30:39.545  2020  2877 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=6}
+08-28 20:30:39.549  2020  2877 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}
+08-28 20:30:39.550  2020  2877 D TaskExtImpl: add ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(6) }
+08-28 20:30:39.550  2020  2877 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61}
+08-28 20:30:39.550  2020  2877 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+08-28 20:30:39.550  2020  2877 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:30:39.550  2020  2877 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}
+08-28 20:30:39.554 16896 16896 I Quality : Skipped: true 4 cost 34.09016 refreshRate 0 processName com.android.todolist
+08-28 20:30:39.563  2020  5519 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:30:39.566  2020  5519 V WindowManager: Changing focus from Window{c51f4a7 u0 com.android.todolist/com.android.todolist.MainActivity} to null,diplayid=0
+08-28 20:30:39.566  2020  5519 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}; hasFocus: false
+08-28 20:30:39.602 16896 16896 I Quality : Skipped: false 2 cost 24.12296 refreshRate 0 processName com.android.todolist
+08-28 20:30:39.608  2020  6070 V WindowManager: Changing focus from null to Window{abf2d96 u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:30:39.608  2020  6070 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}; hasFocus: true
+08-28 20:30:39.608  2020  6070 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7} would transfer to compact
+08-28 20:30:39.618  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61}
+08-28 20:30:39.618  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:30:39.618  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:30:39.618  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:30:39.620  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61}
+08-28 20:30:39.621  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:39.622 16896 16896 I Quality : Skipped: false 1 cost 10.2072935 refreshRate 0 processName com.android.todolist
+08-28 20:30:39.623  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.ListActivity 2 69
+08-28 20:30:40.023  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:40.025  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61}
+08-28 20:30:40.025  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61}
+08-28 20:30:40.542 16896 16896 I Quality : Skipped: false 1 cost 14.601333 refreshRate 0 processName com.android.todolist
+08-28 20:30:41.552  2020  3527 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@6bf758a
+08-28 20:30:41.553 16896 16896 I Quality : Skipped: false 1 cost 9.278577 refreshRate 0 processName com.android.todolist
+08-28 20:30:44.216  2020  2877 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity mCallingUid=10479} from uid 10479
+08-28 20:30:44.219  2020  2877 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:30:44.219  2020  2877 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:30:44.220  2020  2877 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}
+08-28 20:30:44.225  2020  2877 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}
+08-28 20:30:44.225  2020  2877 D TaskExtImpl: add ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(7) }
+08-28 20:30:44.226  2020  2877 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:44.226  2020  2877 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:30:44.226  2020  2877 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:30:44.226  2020  2877 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}
+08-28 20:30:44.230 16896 16896 I Quality : Skipped: false 2 cost 22.30938 refreshRate 0 processName com.android.todolist
+08-28 20:30:44.232  2020  2753 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:30:44.234  2020  2753 V WindowManager: Changing focus from Window{abf2d96 u0 com.android.todolist/com.android.todolist.ListActivity} to null,diplayid=0
+08-28 20:30:44.234  2020  2753 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}; hasFocus: false
+08-28 20:30:44.261 16896 16896 I Quality : Skipped: false 2 cost 19.667423 refreshRate 0 processName com.android.todolist
+08-28 20:30:44.277  2020  3416 V WindowManager: Changing focus from null to Window{adadb1d u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:30:44.277  2020  3416 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}; hasFocus: true
+08-28 20:30:44.277  2020  3416 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8} would transfer to compact
+08-28 20:30:44.300  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:44.301  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:30:44.301  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:30:44.301  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:30:44.304  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:44.304 16896 16896 I Quality : Skipped: false 4 cost 37.822872 refreshRate 0 processName com.android.todolist
+08-28 20:30:44.306  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:30:44.308  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.MainActivity 2 78
+08-28 20:30:44.712  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:30:44.713  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:44.713  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:30:44.729  2020  3416 D TaskExtImpl: remove ActivityRecord{e229941 u0 com.android.todolist/.ListActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(7) }
+08-28 20:31:44.762  2020  5496 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras) mCallingUid=10479} from uid 10479
+08-28 20:31:44.765  2020  5496 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+08-28 20:31:44.765  2020  5496 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:44.765  2020  5496 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=7}
+08-28 20:31:44.771  2020  5496 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}
+08-28 20:31:44.772  2020  5496 D TaskExtImpl: add ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(7) }
+08-28 20:31:44.772  2020  5496 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:44.772  2020  5496 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+08-28 20:31:44.772  2020  5496 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:44.772  2020  5496 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}
+08-28 20:31:44.776 16896 16896 I Quality : Skipped: true 5 cost 42.065247 refreshRate 0 processName com.android.todolist
+08-28 20:31:44.784  2020  5519 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:31:44.787  2020  5519 V WindowManager: Changing focus from Window{adadb1d u0 com.android.todolist/com.android.todolist.MainActivity} to null,diplayid=0
+08-28 20:31:44.787  2020  5519 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}; hasFocus: false
+08-28 20:31:44.823 16896 16896 I Quality : Skipped: false 2 cost 22.333424 refreshRate 0 processName com.android.todolist
+08-28 20:31:44.832  2020  6070 V WindowManager: Changing focus from null to Window{43fe679 u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:31:44.832  2020  6070 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}; hasFocus: true
+08-28 20:31:44.832  2020  6070 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8} would transfer to compact
+08-28 20:31:44.842  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:44.842  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:31:44.842  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:31:44.842  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:31:44.844  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:44.845 16896 16896 I Quality : Skipped: false 2 cost 19.06094 refreshRate 0 processName com.android.todolist
+08-28 20:31:44.846  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:44.847  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.ListActivity 2 72
+08-28 20:31:45.254  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:45.254  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:45.255  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:46.030 16896 16896 I Quality : Skipped: false 1 cost 14.112153 refreshRate 0 processName com.android.todolist
+08-28 20:31:46.775  2020  6070 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@27e9400
+08-28 20:31:46.776 16896 16896 I Quality : Skipped: false 1 cost 10.495412 refreshRate 0 processName com.android.todolist
+08-28 20:31:49.563 16896 16896 I Quality : Skipped: false 1 cost 26.382427 refreshRate 0 processName com.android.todolist
+08-28 20:31:52.744  2020  5370 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity mCallingUid=10479} from uid 10479
+08-28 20:31:52.748  2020  5370 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:31:52.748  2020  5370 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:52.748  2020  5370 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}
+08-28 20:31:52.753  2020  5370 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}
+08-28 20:31:52.753  2020  5370 D TaskExtImpl: add ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(8) }
+08-28 20:31:52.754  2020  5370 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:52.754  2020  5370 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:31:52.754  2020  5370 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:52.754  2020  5370 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}
+08-28 20:31:52.758 16896 16896 I Quality : Skipped: false 2 cost 24.657257 refreshRate 0 processName com.android.todolist
+08-28 20:31:52.760  2020  5370 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:31:52.763  2020  5370 V WindowManager: Changing focus from Window{43fe679 u0 com.android.todolist/com.android.todolist.ListActivity} to null,diplayid=0
+08-28 20:31:52.763  2020  5370 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: false
+08-28 20:31:52.790 16896 16896 I Quality : Skipped: false 2 cost 23.497244 refreshRate 0 processName com.android.todolist
+08-28 20:31:52.804  2020  3419 V WindowManager: Changing focus from null to Window{1c97243 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:31:52.804  2020  3419 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: true
+08-28 20:31:52.804  2020  3419 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9} would transfer to compact
+08-28 20:31:52.823  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:52.823  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:31:52.823  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:31:52.823  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:31:52.825  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:52.825 16896 16896 I Quality : Skipped: false 4 cost 33.63773 refreshRate 0 processName com.android.todolist
+08-28 20:31:52.829  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:31:52.830  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.MainActivity 2 73
+08-28 20:31:53.237  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:53.237  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:53.238  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:31:53.254  2020  5519 D TaskExtImpl: remove ActivityRecord{ab99a10 u0 com.android.todolist/.ListActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(8) }
+08-28 20:31:54.241  2020  6061 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras) mCallingUid=10479} from uid 10479
+08-28 20:31:54.242  2020  6061 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+08-28 20:31:54.243  2020  6061 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:54.243  2020  6061 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=8}
+08-28 20:31:54.246  2020  6061 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}
+08-28 20:31:54.246  2020  6061 D TaskExtImpl: add ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(8) }
+08-28 20:31:54.247  2020  6061 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:54.247  2020  6061 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.ListActivity
+08-28 20:31:54.247  2020  6061 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:54.247  2020  6061 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}
+08-28 20:31:54.250 16896 16896 I Quality : Skipped: true 2 cost 18.113249 refreshRate 0 processName com.android.todolist
+08-28 20:31:54.258  2020  5496 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:31:54.261  2020  5496 V WindowManager: Changing focus from Window{1c97243 u0 com.android.todolist/com.android.todolist.MainActivity} to null,diplayid=0
+08-28 20:31:54.261  2020  5496 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: false
+08-28 20:31:54.294 16896 16896 I Quality : Skipped: false 2 cost 20.168331 refreshRate 0 processName com.android.todolist
+08-28 20:31:54.302  2020  5519 V WindowManager: Changing focus from null to Window{617e4bd u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:31:54.302  2020  5519 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: true
+08-28 20:31:54.302  2020  5519 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9} would transfer to compact
+08-28 20:31:54.312  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:54.312  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:31:54.312  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:31:54.312  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}; replacedMoveAnimation = -1
+08-28 20:31:54.315 16896 16896 I Quality : Skipped: false 1 cost 15.877951 refreshRate 0 processName com.android.todolist
+08-28 20:31:54.315  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:54.317  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:54.318  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.ListActivity 2 69
+08-28 20:31:54.727  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:54.728  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:54.728  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61}
+08-28 20:31:56.254  2020  3419 W NotificationService: Toast already killed. pkg=com.android.todolist token=android.os.BinderProxy@247c537
+08-28 20:31:56.296 16896 16896 I Quality : Skipped: false 3 cost 32.707233 refreshRate 0 processName com.android.todolist
+08-28 20:31:56.306  2020  6061 V WindowManager: Changing focus from Window{617e4bd u0 com.android.todolist/com.android.todolist.ListActivity} to Window{9497dd3 u0 PopupWindow:1f52b6a},diplayid=0
+08-28 20:31:56.346 16896 16896 I Quality : Skipped: false 5 cost 48.966625 refreshRate 0 processName com.android.todolist
+08-28 20:31:57.520 16896 16896 I Quality : Skipped: false 7 cost 65.18291 refreshRate 0 processName com.android.todolist
+08-28 20:31:57.527  2020  3419 V WindowManager: Changing focus from Window{9497dd3 u0 PopupWindow:1f52b6a} to Window{617e4bd u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:31:57.546  2020  3419 V WindowManager: Changing focus from Window{617e4bd u0 com.android.todolist/com.android.todolist.ListActivity} to Window{9c4d972 u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:31:57.561 16896 16896 I Quality : Skipped: false 4 cost 39.616817 refreshRate 0 processName com.android.todolist
+08-28 20:31:57.575 16896 16896 I Quality : Skipped: false 1 cost 12.247238 refreshRate 0 processName com.android.todolist
+08-28 20:31:58.203  2020  3419 V WindowManager: Changing focus from Window{9c4d972 u0 com.android.todolist/com.android.todolist.ListActivity EXITING} to Window{617e4bd u0 com.android.todolist/com.android.todolist.ListActivity},diplayid=0
+08-28 20:31:58.214 16896 16896 I Quality : Skipped: false 2 cost 18.842928 refreshRate 0 processName com.android.todolist
+08-28 20:31:58.982  2020  6061 I ActivityTaskManager: START u0 {cmp=com.android.todolist/.MainActivity mCallingUid=10479} from uid 10479
+08-28 20:31:58.983  2020  6061 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:31:58.983  2020  6061 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:58.983  2020  6061 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}
+08-28 20:31:58.986  2020  6061 D CompactWindowManagerService: onOriginListAdded child: ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}; parent: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=10}
+08-28 20:31:58.986  2020  6061 D TaskExtImpl: add ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61} to mActivityRecordSum = Counter{ com.android.todolist/.ListActivity(1) com.android.todolist/.MainActivity(9) }
+08-28 20:31:58.987  2020  6061 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=false, processRunning=true, allowTaskSnapshot=true, activityCreated=false, snapshot=TaskSnapshot{ mId=1661707620480 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@97559e7 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:58.987  2020  6061 D OplusZoomWindowRUSConfigManager: isSupportZoomModeWithPolicyLocked: target = com.android.todolist/.MainActivity
+08-28 20:31:58.987  2020  6061 D OplusZoomWindowRUSConfigManager: targetPkg = com.android.todolist
+08-28 20:31:58.987  2020  6061 V OplusZoomWindowManagerService: unSupportZoom: false ,callingPid: 16896 ,sourceStack: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=10}
+08-28 20:31:58.992 16896 16896 I Quality : Skipped: false 1 cost 13.098787 refreshRate 0 processName com.android.todolist
+08-28 20:31:58.994  2020  3419 I ActivityTaskManager: The Process com.android.todolist Already Exists in BG. So sending its PID: 16896
+08-28 20:31:58.996  2020  3419 V WindowManager: Changing focus from Window{617e4bd u0 com.android.todolist/com.android.todolist.ListActivity} to null,diplayid=0
+08-28 20:31:58.996  2020  3419 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=10}; hasFocus: false
+08-28 20:31:59.022 16896 16896 I Quality : Skipped: false 2 cost 18.499416 refreshRate 0 processName com.android.todolist
+08-28 20:31:59.036  2020  5370 V WindowManager: Changing focus from null to Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:31:59.036  2020  5370 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=10}; hasFocus: true
+08-28 20:31:59.036  2020  5370 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=10} would transfer to compact
+08-28 20:31:59.054  2020  2052 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:59.054  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:31:59.054  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:31:59.055  2020  2052 D CompactWindowManagerService: addSiblingToAnimationTargets:sibling = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61 f}}; replacedMoveAnimation = -1
+08-28 20:31:59.057 16896 16896 I Quality : Skipped: false 3 cost 28.32502 refreshRate 0 processName com.android.todolist
+08-28 20:31:59.057  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:59.059  2020  2052 D OplusZoomWindowManagerService: adjustWindowCropForLeash start: appToken = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:31:59.061  2020  2052 I Quality : LaunchTime2.0: com.android.todolist/.MainActivity 2 70
+08-28 20:31:59.465  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t61 f}}
+08-28 20:31:59.466  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:59.466  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:31:59.479  2020  5370 D TaskExtImpl: remove ActivityRecord{5bbb9e4 u0 com.android.todolist/.ListActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(9) }
+08-28 20:32:15.465  2020  5370 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:36:40.721  2020  5496 V WindowManager: Changing focus from Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{7feafa3 u0 NotificationShade},diplayid=0
+08-28 20:36:40.721  2020  5496 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: false
+08-28 20:36:43.466  2020  6062 V WindowManager: Changing focus from Window{7feafa3 u0 NotificationShade} to Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:36:43.467  2020  6062 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: true
+08-28 20:36:43.467  2020  6062 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9} would transfer to compact
+08-28 20:38:28.727  2020  2079 D BatteryStatsImplExtImpl: PowerDetails: time=2022-08-28-20-38-28, top=com.android.todolist.MainActivity, ref_counts=668004, ref_mode=0, brightness=0, refs_per_sec=3.0, modem_txTimeMs=[0, 0, 0, 0, 0], traffic=[289215029794,7693814388,601048646179,15123437303], ctr_drain=[196,9.73,0,0], rpmstat=[ADSP:99,96,APSS:0,00,CDSP:100,00,MPSS:141,73,SLPI:95,26,SLPI_ISLAND:95,16,aosd:100,03,cxsd:100,03], sap=false, audio=[spk:0, headset:0]
+08-28 20:46:04.119  2020 21194 D OplusFeatureBrightnessBarController: curWindow = com.android.todolist/com.android.todolist.MainActivity
+08-28 20:48:38.025  2020  2079 D BatteryStatsImplExtImpl: PowerDetails: time=2022-08-28-20-48-37, top=com.android.todolist.MainActivity, ref_counts=668682, ref_mode=0, brightness=0, refs_per_sec=1.0, modem_txTimeMs=[0, 0, 0, 0, 0], traffic=[289215029794,7693814388,601048646179,15123437303], ctr_drain=[196,9.73,0,0], rpmstat=[ADSP:99,38,APSS:0,00,CDSP:100,00,MPSS:135,45,SLPI:93,21,SLPI_ISLAND:93,21,aosd:99,94,cxsd:99,94], sap=false, audio=[spk:0, headset:0]
+08-28 20:49:06.023  2020 21239 D OplusFeatureBrightnessBarController: curWindow = com.android.todolist/com.android.todolist.MainActivity
+08-28 20:49:45.177  2020 21250 D OplusFeatureBrightnessBarController: curWindow = com.android.todolist/com.android.todolist.MainActivity
+08-28 20:52:51.221  2020  6068 V WindowManager: Changing focus from Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{20f1849 u0 TemporaryFocusWindow},diplayid=0
+08-28 20:52:51.221  2020  6068 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: false
+08-28 20:52:51.426  2020  3416 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:52:51.431  2020  3416 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:52:51.991  2020  5519 D DisplayManagerService: setSpecBrightness gear = 0 reason = com.android.todolist@temperature@34@normal rate = -1
+08-28 20:52:51.992  2020  5519 D MaxBrightnessController: new parameter! gear = 0 set reason = com.android.todolist@temperature@34@normal brightness = 10239 package = com.android.todolist type = temperature temperature = 34 priority = normal rate = -1 HadDragPoint = false mode = 1
+08-28 20:52:51.994  2020  5519 D VRR [OPlusRefreshRateService]:  setFrameRateTargetControl [ 0.0 , com.android.todolist , false , com.oplus.battery ]
+08-28 20:52:51.994  2020  5519 D VRR [OPlusExternalRefreshRateManager]:  [FRTC] FrameRate : 0 com.android.todolist false com.oplus.battery
+08-28 20:52:51.994  2020  2136 D VRR [OPlusSurfaceFlingerController]:  add frtc FrameRate : 0 com.android.todolist false com.oplus.battery
+08-28 20:55:01.713  2020  5370 D VRR [OPlusRefreshRateService]:  setFrameRateTargetControl [ 0.0 , com.android.todolist , false , com.oplus.battery ]
+08-28 20:55:01.713  2020  5370 D VRR [OPlusExternalRefreshRateManager]:  [FRTC] FrameRate : 0 com.android.todolist false com.oplus.battery
+08-28 20:55:01.713  2020  2136 D VRR [OPlusSurfaceFlingerController]:  add frtc FrameRate : 0 com.android.todolist false com.oplus.battery
+08-28 20:55:05.457  2020  5420 D OplusSecurePayManager: resume secure pay app : com.android.todolist
+08-28 20:55:05.457  2020  2151 D OplusSecurePayManager: startSecurePayIntent,pkgName:com.android.todolist UserHandle.CURRENT=UserHandle{-2}, mCurrentUserId=0
+08-28 20:55:05.461  2020  5420 D TaskExtImpl: addColorModeOnResume resume=true pkg = com.android.todolist
+08-28 20:55:05.465  2020  5420 D ActivityTaskManager: getStartingWindowType: newTask=false, taskSwitch=true, processRunning=true, allowTaskSnapshot=true, activityCreated=true, snapshot=TaskSnapshot{ mId=1661709171380 mTopActivityComponent=com.android.todolist/.MainActivity mSnapshot=android.hardware.HardwareBuffer@fafddc9 (1080x2400) mColorSpace=sRGB IEC61966-2.1 (id=0, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2400) mContentInsets=[0,103][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=0 mIsTranslucent=false mHasImeSurface=false, record:ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:55:05.468  2020  5420 D CompactWindowManagerService: updateBackgroundSurface openingApp: ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:55:05.564  2020  5420 V WindowManager: Changing focus from Window{7feafa3 u0 NotificationShade} to Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity},diplayid=0
+08-28 20:55:05.564  2020  5420 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9}; hasFocus: true
+08-28 20:55:05.564  2020  5420 D ActivityTaskManager: onWindowFocusChanged Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=true mode=fullscreen translucent=false sz=9} would transfer to compact
+08-28 20:55:05.780  2020  2052 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:55:05.780  2020  2052 I OplusAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:55:06.284  2020  2040 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:55:06.837  2020  2041 V WindowManager: Changing focus from Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{c70ec7a u0 com.android.launcher/com.android.launcher.Launcher},diplayid=0
+08-28 20:55:06.837  2020  2041 D CompactWindowManagerService: notifyCompactWindowState task: Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=false mode=fullscreen translucent=false sz=9}; hasFocus: false
+08-28 20:55:06.851  2020  2041 V OplusZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t61}
+08-28 20:55:06.858  2020  3780 D OplusEapManager: mTargetExitName :com.android.todolist
+08-28 20:55:06.859  2020  3780 D VRR [OPlusFrontAppManager]: OnAppSwitchObserver: onAppExit , info.targetName = com.android.todolist
+08-28 20:55:06.859  2020  2136 D VRR [OPlusExternalRefreshRateManager]: setFrontPackageName pkgName: null CurPkgName: com.android.todolist
+08-28 20:55:06.864  2020  6070 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:55:06.875  2020  5420 D VRR [OPlusRefreshRateService]:  setFrameRateTargetControl [ 0.0 , com.android.todolist , false , com.oplus.battery ]
+08-28 20:55:06.875  2020  5420 D VRR [OPlusExternalRefreshRateManager]:  [FRTC] FrameRate : 0 com.android.todolist false com.oplus.battery
+08-28 20:55:06.875  2020  2136 D VRR [OPlusSurfaceFlingerController]:  add frtc FrameRate : 0 com.android.todolist false com.oplus.battery
+08-28 20:55:06.963  2020  6062 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:55:07.773  2020  2041 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:58:40.867  2020  6070 D OplusAppListInterceptManager: shouldFilterTask::packageName = com.android.todolist
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; CpuTime = 0 ms; CpuTotalTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; CpuKernelTime = 0 ms; CpuTotalKernelTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; CpuUserTime = 0 ms; CpuTotalUserTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; CpuPower = 0.0 mAh.; CpuTotalPower = 0.0 mAh.
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 0
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; WakeLockTime = 0 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 0 ms; WakeLockTotalPower = 0.0 mAh.
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; WifiRxBytes = 0 Bytes; WifiTxBytes = 0 Bytes; WifiRxPackets = 0 ; WifiTxPackets = 0 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0 
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; WifiRxPacketsPower = 0.0 mAh; WifiTxPacketsPower = 0.0 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 0.0 mAh
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; MobileRxBytes = 0 Bytes; MobileTxBytes = 0 Bytes; MobileRxPackets = 0 ; MobileTxPackets = 0 ; MobileActiveCount = 0 ; MobileActiveTime = 0 ; MobileTotalRxBytes = 0 Bytes; MobileTotalTxBytes = 0 Bytes; MobileTotalRxPackets = 0 ; MobileTotalTxPackets = 0 ; MobileTotalActiveCount = 0 ; MobileTotalActiveTime = 0 
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; MobileRxPacketsPower = 0.0 mAh; MobileTxPacketsPower = 0.0 mAh; MobileTotalPower = 0.0 mAh; MobileTotalRxPacketsPower = 0.0 mAh; MobileTotalTxPacketsPower = 0.0 mAh; MobileTotalTotalPower = 0.0 mAh
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; GpsTime = 0 ms; GpsTotalTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; SensorTime = 0 ms; SensorTotalTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; CameraTime = 0 ms; CameraTotalTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+08-28 20:58:40.907  3378  6045 E Battery : AppStats: Uid = 10479; pkgName = com.android.todolist; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+08-28 20:58:41.731  2020  2051 I ActivityManager: Killing 16896:com.android.todolist/u0a479 (adj 905): remove task
+08-28 20:58:41.790  2020  2753 I WindowManager: WIN DEATH: Window{2e6cfbe u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.790  2020  2753 W InputManager-JNI: Input channel object '2e6cfbe com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.795  2020  5519 I WindowManager: WIN DEATH: Window{48f4777 u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.795  2020  5519 W InputManager-JNI: Input channel object '48f4777 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.799  2020  6070 I WindowManager: WIN DEATH: Window{c51f4a7 u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.799  2020  6070 W InputManager-JNI: Input channel object 'c51f4a7 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.800  1195  1195 D OplusLayer: ~Layer() sequence=4525, name=2e6cfbe com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6e83e0c0
+08-28 20:58:41.801  1195  1195 D OplusLayer: ~Layer() sequence=4552, name=48f4777 com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6d446f00
+08-28 20:58:41.803  2020  4023 I WindowManager: WIN DEATH: Window{1c97243 u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.803  2020  4023 W InputManager-JNI: Input channel object '1c97243 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.807  2020  2877 I WindowManager: WIN DEATH: Window{3c2364f u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.807  2020  2877 W InputManager-JNI: Input channel object '3c2364f com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.808  1195  1195 D OplusLayer: ~Layer() sequence=4866, name=c51f4a7 com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6d5dbd80
+08-28 20:58:41.809  1195  1195 D OplusLayer: ~Layer() sequence=4933, name=1c97243 com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6d4a3f40
+08-28 20:58:41.810  2020  3528 I WindowManager: WIN DEATH: Window{bf84c60 u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.811  2020  3528 W InputManager-JNI: Input channel object 'bf84c60 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.814  2020  3687 I WindowManager: WIN DEATH: Window{7d493e7 u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.814  2020  3687 W InputManager-JNI: Input channel object '7d493e7 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.817  1195  1195 D OplusLayer: ~Layer() sequence=4412, name=3c2364f com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6d5e2300
+08-28 20:58:41.817  1195  1195 D OplusLayer: ~Layer() sequence=4434, name=bf84c60 com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a9ed51200
+08-28 20:58:41.817  2020  5372 I WindowManager: WIN DEATH: Window{91ab593 u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.817  2020  5372 W InputManager-JNI: Input channel object '91ab593 com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.821  2020  5366 I WindowManager: WIN DEATH: Window{adadb1d u0 com.android.todolist/com.android.todolist.MainActivity}
+08-28 20:58:41.821  2020  5366 W InputManager-JNI: Input channel object 'adadb1d com.android.todolist/com.android.todolist.MainActivity (client)' was disposed without first being removed with the input manager!
+08-28 20:58:41.825  1195  1195 D OplusLayer: ~Layer() sequence=4579, name=7d493e7 com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6d4e0200
+08-28 20:58:41.825  1195  1195 D OplusLayer: ~Layer() sequence=4906, name=adadb1d com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6d5ac040
+08-28 20:58:41.826  1195  1195 D OplusLayer: ~Layer() sequence=4975, name=91ab593 com.android.todolist/com.android.todolist.MainActivity#0 0xb400007a6e892f00
+08-28 20:58:41.832  2020  4358 I OplusHansManager : onUidGone(), 10479 com.android.todolist exit SM
+08-28 20:58:41.832  2020  5496 D TaskExtImpl: remove ActivityRecord{b99193e u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(8) }
+08-28 20:58:41.832  2020  3476 I OplusHansManager : uid=10479, pkg=com.android.todolist M exit SM
+08-28 20:58:41.832  2020  3476 I OplusHansManager : uid=10479, pkg=com.android.todolist M exit()
+08-28 20:58:41.832  2020  3476 I OplusHansManager : uid=10479, pkg=com.android.todolist R exit()
+08-28 20:58:41.833  2020  5496 D TaskExtImpl: remove ActivityRecord{a2fcae1 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(7) }
+08-28 20:58:41.835  2020  5496 D TaskExtImpl: remove ActivityRecord{e25e1d4 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(6) }
+08-28 20:58:41.835  2020  5496 D TaskExtImpl: remove ActivityRecord{c6c6f95 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(5) }
+08-28 20:58:41.836  2020  5496 D TaskExtImpl: remove ActivityRecord{b89b85 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(4) }
+08-28 20:58:41.837  2020  5496 D TaskExtImpl: remove ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(3) }
+08-28 20:58:41.837  2020  5496 D TaskExtImpl: remove ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(2) }
+08-28 20:58:41.838  2020  5496 D TaskExtImpl: remove ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ com.android.todolist/.MainActivity(1) }
+08-28 20:58:41.841  2020  5496 I OplusScreenSecurityMask: onStackRemoved task = Task{dc11643 #61 type=standard A=10479:com.android.todolist U=0 visible=false mode=fullscreen translucent=true sz=0} record = null displayId = 0
+08-28 20:58:41.841  2020  5496 D TaskExtImpl: remove ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity t-1 f}} to mActivityRecordSum = Counter{ }
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4404, name=ActivityRecord{b99193e u0 com.android.todolist/.MainActivity#0 0xb400007a6d543ac0
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4433, name=ActivityRecord{a2fcae1 u0 com.android.todolist/.MainActivity#0 0xb400007a6d5a7a00
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4524, name=ActivityRecord{e25e1d4 u0 com.android.todolist/.MainActivity#0 0xb400007a9edbc880
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4551, name=ActivityRecord{c6c6f95 u0 com.android.todolist/.MainActivity#0 0xb400007a6fb4d100
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4578, name=ActivityRecord{b89b85 u0 com.android.todolist/.MainActivity#0 0xb400007a6d4d6e40
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4865, name=ActivityRecord{c4b245 u0 com.android.todolist/.MainActivity#0 0xb400007a6d49e7c0
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4905, name=ActivityRecord{ac025eb u0 com.android.todolist/.MainActivity#0 0xb400007a6d5c1840
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4932, name=ActivityRecord{81adbc1 u0 com.android.todolist/.MainActivity#0 0xb400007a6e91f540
+08-28 20:58:41.851  1195  1195 D OplusLayer: ~Layer() sequence=4974, name=ActivityRecord{d2f2d91 u0 com.android.todolist/.MainActivity#0 0xb400007a6e96e8c0
+08-28 20:58:41.856  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 97519514)
+08-28 20:58:41.860  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 247184741)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 137640744)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 180862681)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 193203145)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 144193161)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 24878031)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 228425797)
+08-28 20:58:41.863  2020  2223 W UsageStatsService: Unexpected activity event reported! (com.android.todolist/com.android.todolist.MainActivity event : 23 instanceId : 151082261)
